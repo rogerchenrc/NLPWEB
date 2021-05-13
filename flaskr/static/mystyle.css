@@ -35,7 +35,7 @@ html {
 
 /* Align h1 to center and change its color */
 h1 {
-    color: #aa05e6;
+    color: #054ce6;
     text-align: center;
 }
 
@@ -87,7 +87,7 @@ input[type=text] {
 button {
     margin: auto;
     font-size: 1em;
-    background-color: #05e6bd;
+    background-color: #FCCA03;
     border: none;
     color: white;
     padding: 1em 2em;
