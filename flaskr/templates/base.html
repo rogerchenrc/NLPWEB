@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
 
 <!--Website icon-->
-<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='webicon.png') }}">
+<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='logo.png') }}">
 
 <!--Website title-->
 <head>
@@ -12,11 +12,11 @@
 
 <!--Website header with mail, github and linkedin link-->
 <header>
-    <a style="padding:0 0.5rem" href="mailto:chenming.yong13@gmail.com"><img
+    <a style="padding:0 0.5rem" href="mailto:rogerchen15935717@gmail.com"><img
             src="{{ url_for('static', filename='email.png') }}"></a>
-    <a style="padding:0 0.5rem" href="https://github.com/cmy113/sentiment-analysis-project" target="_blank"><img
+    <a style="padding:0 0.5rem" href="https://github.com/rogerchenrc/NLPWEB" target="_blank"><img
             src="{{ url_for('static', filename='github.png') }}"></a>
-    <a style="padding:0 0.5rem" href="https://www.linkedin.com/in/chenming-yong/" target="_blank"><img
+    <a style="padding:0 0.5rem" href="https://www.linkedin.com/in/kuan-hao-chen-056a7b196/" target="_blank"><img
             src="{{ url_for('static', filename='linkedin.png') }}"></a>
 </header>
 
@@ -35,8 +35,8 @@
             <img src="{{ url_for('static', filename='postive.gif') }}" class="image">
         </div>
         <div class="column">
-            <h1>Sentiment Analysis</h1>
-            <h2>Positive or Negative</h2>
+            <h1>MOVIE GENRES DETECTIONS</h1>
+            <h2>THERE ARE 7 DIFFERENT GENRES FOR DETECTION</h2>
         </div>
         <div class="column">
             <img src="{{ url_for('static', filename='negative.gif') }}" class="image">
@@ -47,7 +47,7 @@
     <hr>
 
     <!--h3 to ask user to input message-->
-    <h3>Input your message to get its sentiment</h3>
+    <h3>Input the movie descriptions to get the genre prediction</h3>
 
     <!--
     1. Create a form with text input and submit button
