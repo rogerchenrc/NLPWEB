@@ -3,7 +3,7 @@
 
 # # Imports
 
-# In[41]:
+# In[1]:
 
 
 import pandas as pd
@@ -27,7 +27,7 @@ from termcolor import colored
 
 # Define a class for the LSTM classifier.
 
-# In[5]:
+# In[2]:
 
 
 class FilmClassifierLSTM(nn.Module):
@@ -115,7 +115,7 @@ class FilmClassifierLSTM(nn.Module):
         return output
 
 
-# In[29]:
+# In[3]:
 
 
 class DescriptionTransformer(BaseEstimator, TransformerMixin):
@@ -232,7 +232,7 @@ class DescriptionTransformer(BaseEstimator, TransformerMixin):
         return str(text)
 
 
-# In[76]:
+# In[30]:
 
 
 def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pickle', 
@@ -285,16 +285,22 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
         best_label = prediction.argmax(1)[0].item()
         predicted_labels[0][best_label] = 1
         
+    # Calculate the percentage prediction
+    predicted_categories_scores = []
+    for idx in range(len(predicted_labels[0])):
+        if predicted_labels[0][idx].item() == 1:
+            predicted_categories_scores.append(prediction[0][idx].item())
+        
     # Fit the encoder so it can be used
     binary_encoder.fit(binary_encoder.classes)
     # Convert the labels from binary to genres
     predicted_categories = binary_encoder.inverse_transform(predicted_labels.cpu())
     predicted_categories = list(predicted_categories[0])
     
-    return predicted_categories
+    return predicted_categories, predicted_categories_scores
 
 
-# In[77]:
+# In[31]:
 
 
 text_to_genres("The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.")
