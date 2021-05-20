@@ -7,14 +7,14 @@ from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 import pickle
 
-with open('/Users/khc/Desktop/NLPWEB/flaskr/static/tfidf.pkl', 'rb') as tf:
-    tfidf = pickle.load(tf)
-
-with open('/Users/khc/Desktop/NLPWEB/flaskr/static/model.pkl', 'rb') as mod:
-    model = pickle.load(mod)
-
-with open('/Users/khc/Desktop/NLPWEB/flaskr/static/mlb.pkl', 'rb') as multi:
-    mlb = pickle.load(multi)
+# with open('/Users/khc/Desktop/NLPWEB/flaskr/static/tfidf.pkl', 'rb') as tf:
+#     tfidf = pickle.load(tf)
+#
+# with open('/Users/khc/Desktop/NLPWEB/flaskr/static/model.pkl', 'rb') as mod:
+#     model = pickle.load(mod)
+#
+# with open('/Users/khc/Desktop/NLPWEB/flaskr/static/mlb.pkl', 'rb') as multi:
+#     mlb = pickle.load(multi)
 
 
 def lower_case(text):
