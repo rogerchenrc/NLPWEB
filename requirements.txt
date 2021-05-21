@@ -19,7 +19,7 @@ threadpoolctl==2.1.0
 tqdm==4.54.1
 Werkzeug==1.0.1
 
-torch~=1.8.1+cpu
+torch==1.8.1+cpu
 torchtext~=0.9.1
 spacy~=3.0.6
 dill~=0.3.3
