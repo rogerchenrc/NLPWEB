@@ -10,7 +10,7 @@ Define what should be inside the block content
 
     <!--
     Result header
-    1. Create a row with 3 columns with Message, Sentiment, Score header
+    1. Create a row with 3 columns with Description, Genre, Score header
     2. Use the outputHeader class which will center and bold the text
     -->
     <div class="row">
@@ -28,11 +28,9 @@ Define what should be inside the block content
     <!--
     Result content
     1. Create a row with 3 columns
-    2. 1st column will be the input message, will use customised blockquote to make it more unique
-    3. 2nd column will be the sentiment of the input message with badge class,
-    the sentiment is passed as a class of the div (combined with badge class),
-    positive and negative class are defined in css, Positive: Green color, Negative : Red color
-    4. 3rd column will be the score (probability) of the predicted sentiment
+    2. 1st column will be the input message
+    3. 2nd column will be the genre of the input film description,
+    4. 3rd column will be the score (probability) of the predicted genre
     -->
     <div class="row">
         <div class="column">
@@ -41,7 +39,7 @@ Define what should be inside the block content
             </blockquote>
         </div>
         <div class="column">
-            <div class="badge {{ sentiment }}">{{ sentiment }}</div>
+            <div class="badge {{ genre }}">{{ genre }}</div>
         </div>
         <div class="column">
             <div class="badge">{{ score }}</div>
