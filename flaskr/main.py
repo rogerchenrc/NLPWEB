@@ -1,12 +1,16 @@
 import pickle
 import dill
+import os
 from flask import Flask
-from .Model_Loader import text_to_genres
+import Model_Loader
+from Model_Loader import *
+
 '''
 Initiate a new flaskr app
 1. Input some random secret key to be used by the application 
 2. Input some flaskr commands that would be used by the application
 '''
+
 app = Flask(__name__)
 app.config.from_mapping(
     SECRET_KEY='\xe0\xcd\xac#\x06\xd9\xe4\x00\xa5\xf2\x88\xc3\xef$\xa5\x05n\x97\xd8\x1269i\xd3'
@@ -17,16 +21,7 @@ from flask import (
 
 '''
 Load the machine learning libraries 
-1. Logistic regression model is used to predict the sentiment on the newly computed matrix
 '''
-
-# Load the machine learning model
-# with open('./flaskr/static/model.pkl', 'rb') as input_file:
-#     model = pickle.load(input_file)
-# with open('./flaskr/static/mlb.pkl', 'rb') as input_file:
-#     mlb = pickle.load(input_file)
-# with open('./flaskr/static/tfidf.pkl', 'rb') as input_file:
-#     tfidf = pickle.load(input_file)
 
 # Our final model
 with open('./flaskr/static/text_preprocessor.pickle', 'rb') as input_file:
@@ -39,6 +34,17 @@ with open('./flaskr/static/trained_model.pt', 'rb') as input_file:
     model_weight = pickle.load(input_file)
 with open('./flaskr/static/Text.Field', 'rb') as input_file:
     TEXT = dill.load(input_file)
+
+root_path = os.path.dirname(os.path.abspath(__file__))
+
+# predicted_genres, predicted_scores = text_to_genres("The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+#                                                     model_kwargs_file=root_path+'\\model\\12_Genres\\model_kwargs.pickle',
+#                                                     model_weights_file=root_path+'\\model\\12_Genres\\trained_model.pt',
+#                                                     binary_encoder_file=root_path+'\\model\\12_Genres\\binary_encoder.pickle',
+#                                                     TEXT_field_file=root_path+"\\model\\12_Genres\\TEXT.Field",
+#                                                     text_preprocessor_file=root_path+"\\model\\12_Genres\\text_preprocessor.pickle")
+# print(predicted_genres, predicted_scores)
+    
 '''
 Home Page
 1. It will take both GET and POST requests 
@@ -87,8 +93,18 @@ Result Page
 #             session['message'] = message
 #             return redirect(url_for('result'))
 #     return render_template("result.html", message=message, sentiment=genre, score = score)
+
 def result():
     message = session.get('message')
+    
+#     df_pred = text_to_genres(message,
+#                              model_kwargs_file=root_path+'\\model\\12_Genres\\model_kwargs.pickle',
+#                              model_weights_file=root_path+'\\model\\12_Genres\\trained_model.pt',
+#                              binary_encoder_file=root_path+'\\model\\12_Genres\\binary_encoder.pickle',
+#                              TEXT_field_file=root_path+"\\model\\12_Genres\\TEXT.Field",
+#                              text_preprocessor_file=root_path+"\\model\\12_Genres\\text_preprocessor.pickle")
+    
+    
     df_pred = text_to_genres(text=message, label_threshold=0.5, model_kwargs=model,
                    model_weights=model_weight, binary_encoder=binary_encoder,
                    TEXT=TEXT, text_preprocessor=text_preprocessor)
@@ -101,3 +117,6 @@ def result():
             session['message'] = message
             return redirect(url_for('result'))
     return render_template("result.html", message=message, sentiment=genre, score=score)
+
+if __name__ == "__main__":
+    app.run()

@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Imports
-
-# In[1]:
-
-
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -17,18 +9,12 @@ import pickle
 import dill
 import unicodedata
 import re
+import os
 from torchtext.legacy import data
 from torch.utils.data import Dataset
 from sklearn.base import BaseEstimator, TransformerMixin
 from termcolor import colored
-
-
-# ### Classifier class
-
-# Define a class for the LSTM classifier.
-
-# In[2]:
-
+from pycontractions import Contractions
 
 class FilmClassifierLSTM(nn.Module):
     """ 
@@ -115,9 +101,6 @@ class FilmClassifierLSTM(nn.Module):
         return output
 
 
-# In[3]:
-
-
 class DescriptionTransformer(BaseEstimator, TransformerMixin):
     """
     Process the movie descriptions before classification
@@ -157,7 +140,7 @@ class DescriptionTransformer(BaseEstimator, TransformerMixin):
         self.data = x.copy()
         self.column_name = self.data.columns.values[0]
         
-        # Load spaCy language processorz
+        # Load spaCy language processor
         nlp = spacy.load("en_core_web_sm")
         # Load pre-trained word embedding if using contractions
         contraction = Contractions(api_key="glove-twitter-25") if self.contractions else None
@@ -219,8 +202,8 @@ class DescriptionTransformer(BaseEstimator, TransformerMixin):
             word_list = [word for sent in sentences for word in sent]
             self.data.loc[idx, self.column_name] = ' '.join([str(elem) for elem in word_list])
             
-        if self.verbose > 1:
-            display(self.data)
+#         if self.verbose > 1:
+#             display(self.data)
         if self.verbose > 0:
             print(colored("Finshed processing all descriptions\n", color="blue", attrs=['bold', 'underline']))
             
@@ -232,86 +215,18 @@ class DescriptionTransformer(BaseEstimator, TransformerMixin):
         return str(text)
 
 
-# In[30]:
+def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pickle',
+                   model_weights_file='trained_model.pt', binary_encoder_file='binary_encoder.pickle',
+                   TEXT_field_file="TEXT.Field", text_preprocessor_file="text_preprocessor.pickle"):
 
-
-# def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pickle',
-#                    model_weights_file='trained_model.pt', binary_encoder_file='binary_encoder.pickle',
-#                    TEXT_field_file="TEXT.Field", text_preprocessor_file="text_preprocessor.pickle"):
-#
-#      # Load the text preprocessor transformer
-#     text_preprocessor = pickle.load(open("text_preprocessor.pickle", 'rb'))
-#     # Load the multi-hot binary encoder
-#     binary_encoder = pickle.load(open(binary_encoder_file, 'rb'))
-#     # Load TorchText TEXT field
-#     TEXT = dill.load(open(TEXT_field_file, "rb"))
-#     # Load the model parameters
-#     model_kwargs = pickle.load(open(model_kwargs_file, 'rb'))
-#     # Determine device
-#     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#
-#     # Convert text into dataframe to be compatible
-#     text_df = pd.DataFrame(data=[text], columns=["description"])
-#     # Process the text
-#     text_preprocessor.verbose = 0
-#     processed_text = text_preprocessor.transform(text_df)
-#     # Convert back to string
-#     processed_text = str(processed_text.values[0][0])
-#
-#     # Get indexes of tokens
-#     token_indexes = [TEXT.vocab.stoi[token] for token in processed_text.split()]
-#     # Convert indexes to tensor
-#     token_tensor = torch.LongTensor(token_indexes).to(device)
-#     # Add extra dimension to shape to replicate batch
-#     token_tensor = token_tensor.unsqueeze(1)
-#     # Get the length of the text
-#     length_tensor = torch.LongTensor([len(token_indexes)])
-#
-#     # Create the model
-#     model = FilmClassifierLSTM(**model_kwargs)
-#     # Set device
-#     model = model.to(device)
-#     # Load the model weights from file
-#     model.load_state_dict(torch.load(model_weights_file))
-#     # Set model to evaluation mode
-#     model.eval()
-#
-#     # Make a prediction
-#     prediction = model(token_tensor, length_tensor)
-#     # Convert model outputs to binary labels, then to genre
-#     predicted_labels = torch.tensor([[1 if value > label_threshold else 0 for value in sample] for sample in prediction])
-#     if not 1 in predicted_labels:
-#         # Prevent no labels being predicted
-#         best_label = prediction.argmax(1)[0].item()
-#         predicted_labels[0][best_label] = 1
-#
-#     # Calculate the percentage prediction
-#     predicted_categories_scores = []
-#     for idx in range(len(predicted_labels[0])):
-#         if predicted_labels[0][idx].item() == 1:
-#             predicted_categories_scores.append(prediction[0][idx].item())
-#
-#     # Fit the encoder so it can be used
-#     binary_encoder.fit(binary_encoder.classes)
-#     # Convert the labels from binary to genres
-#     predicted_categories = binary_encoder.inverse_transform(predicted_labels.cpu())
-#     predicted_categories = list(predicted_categories[0])
-#
-#     return predicted_categories, predicted_categories_scores
-
-# # Load the text preprocessor transformer
-# text_preprocessor = pickle.load(open("text_preprocessor.pickle", 'rb'))
-# # Load the multi-hot binary encoder
-# binary_encoder = pickle.load(open(binary_encoder.pickle, 'rb'))
-# # Load TorchText TEXT field
-# TEXT = dill.load(open(TEXT_field_file, "rb"))
-# # Load the model parameters
-# model_kwargs = pickle.load(open(model_kwargs_file, 'rb'))
-
-def text_to_genres(text, label_threshold, model_kwargs,
-                   model_weights, binary_encoder,
-                   TEXT, text_preprocessor):
-
+     # Load the text preprocessor transformer
+    text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+    # Load the multi-hot binary encoder
+    binary_encoder = pickle.load(open(binary_encoder_file, 'rb'))
+    # Load TorchText TEXT field
+    TEXT = dill.load(open(TEXT_field_file, "rb"))
+    # Load the model parameters
+    model_kwargs = pickle.load(open(model_kwargs_file, 'rb'))
     # Determine device
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -337,15 +252,14 @@ def text_to_genres(text, label_threshold, model_kwargs,
     # Set device
     model = model.to(device)
     # Load the model weights from file
-    model.load_state_dict(torch.load(model_weights))
+    model.load_state_dict(torch.load(model_weights_file))
     # Set model to evaluation mode
     model.eval()
 
     # Make a prediction
     prediction = model(token_tensor, length_tensor)
     # Convert model outputs to binary labels, then to genre
-    predicted_labels = torch.tensor(
-        [[1 if value > label_threshold else 0 for value in sample] for sample in prediction])
+    predicted_labels = torch.tensor([[1 if value > label_threshold else 0 for value in sample] for sample in prediction])
     if not 1 in predicted_labels:
         # Prevent no labels being predicted
         best_label = prediction.argmax(1)[0].item()
@@ -362,19 +276,10 @@ def text_to_genres(text, label_threshold, model_kwargs,
     # Convert the labels from binary to genres
     predicted_categories = binary_encoder.inverse_transform(predicted_labels.cpu())
     predicted_categories = list(predicted_categories[0])
-
+    
     # put into dataframe
     data_3 = [(text, predicted_categories, predicted_categories_scores)]
     df = pd.DataFrame(data_3, columns=['text', 'genre', 'score'])
+    
     return df
-# In[31]:
-
-
-#text_to_genres("The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.")
-
-
-# In[ ]:
-
-
-
 
