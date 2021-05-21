@@ -1,8 +1,6 @@
 import pickle
 import dill
 from flask import Flask
-from .model import predict  # Import predict function from model.py
-from .tempmodel import predict as tmppredict
 from .Model_Loader import text_to_genres
 '''
 Initiate a new flaskr app
@@ -30,16 +28,7 @@ Load the machine learning libraries
 # with open('./flaskr/static/tfidf.pkl', 'rb') as input_file:
 #     tfidf = pickle.load(input_file)
 
-# # Load the text preprocessor transformer
-# text_preprocessor = pickle.load(open("text_preprocessor.pickle", 'rb'))
-# # Load the multi-hot binary encoder
-# binary_encoder = pickle.load(open(binary_encoder.pickle, 'rb'))
-# # Load TorchText TEXT field
-# TEXT = dill.load(open(TEXT_field_file, "rb"))
-# # Load the model parameters
-# model_kwargs = pickle.load(open(model_kwargs_file, 'rb'))
-
-## Our final model
+# Our final model
 with open('./flaskr/static/text_preprocessor.pickle', 'rb') as input_file:
     text_preprocessor = pickle.load(input_file)
 with open('./flaskr/static/binary_encoder.pickle', 'rb') as input_file:
