@@ -235,8 +235,8 @@ class DescriptionTransformer(BaseEstimator, TransformerMixin):
 # In[30]:
 
 
-def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pickle', 
-                   model_weights_file='trained_model.pt', binary_encoder_file='binary_encoder.pickle', 
+def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pickle',
+                   model_weights_file='trained_model.pt', binary_encoder_file='binary_encoder.pickle',
                    TEXT_field_file="TEXT.Field", text_preprocessor_file="text_preprocessor.pickle"):
 
      # Load the text preprocessor transformer
@@ -249,7 +249,7 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
     model_kwargs = pickle.load(open(model_kwargs_file, 'rb'))
     # Determine device
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    
+
     # Convert text into dataframe to be compatible
     text_df = pd.DataFrame(data=[text], columns=["description"])
     # Process the text
@@ -257,7 +257,7 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
     processed_text = text_preprocessor.transform(text_df)
     # Convert back to string
     processed_text = str(processed_text.values[0][0])
-    
+
     # Get indexes of tokens
     token_indexes = [TEXT.vocab.stoi[token] for token in processed_text.split()]
     # Convert indexes to tensor
@@ -266,7 +266,7 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
     token_tensor = token_tensor.unsqueeze(1)
     # Get the length of the text
     length_tensor = torch.LongTensor([len(token_indexes)])
-    
+
     # Create the model
     model = FilmClassifierLSTM(**model_kwargs)
     # Set device
@@ -275,7 +275,7 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
     model.load_state_dict(torch.load(model_weights_file))
     # Set model to evaluation mode
     model.eval()
-    
+
     # Make a prediction
     prediction = model(token_tensor, length_tensor)
     # Convert model outputs to binary labels, then to genre
@@ -284,19 +284,19 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
         # Prevent no labels being predicted
         best_label = prediction.argmax(1)[0].item()
         predicted_labels[0][best_label] = 1
-        
+
     # Calculate the percentage prediction
     predicted_categories_scores = []
     for idx in range(len(predicted_labels[0])):
         if predicted_labels[0][idx].item() == 1:
             predicted_categories_scores.append(prediction[0][idx].item())
-        
+
     # Fit the encoder so it can be used
     binary_encoder.fit(binary_encoder.classes)
     # Convert the labels from binary to genres
     predicted_categories = binary_encoder.inverse_transform(predicted_labels.cpu())
     predicted_categories = list(predicted_categories[0])
-    
+
     return predicted_categories, predicted_categories_scores
 
 

@@ -1,8 +1,9 @@
 import pickle
+import dill
 from flask import Flask
 from .model import predict  # Import predict function from model.py
 from .tempmodel import predict as tmppredict
-
+from .Model_Loader import text_to_genres
 '''
 Initiate a new flaskr app
 1. Input some random secret key to be used by the application 
@@ -22,15 +23,33 @@ Load the machine learning libraries
 '''
 
 # Load the machine learning model
-# with open('./flaskr/static/LogisticRegression.pickle', 'rb') as input_file:
+# with open('./flaskr/static/model.pkl', 'rb') as input_file:
 #     model = pickle.load(input_file)
+# with open('./flaskr/static/mlb.pkl', 'rb') as input_file:
+#     mlb = pickle.load(input_file)
+# with open('./flaskr/static/tfidf.pkl', 'rb') as input_file:
+#     tfidf = pickle.load(input_file)
 
-with open('./flaskr/static/model.pkl', 'rb') as input_file:
+# # Load the text preprocessor transformer
+# text_preprocessor = pickle.load(open("text_preprocessor.pickle", 'rb'))
+# # Load the multi-hot binary encoder
+# binary_encoder = pickle.load(open(binary_encoder.pickle, 'rb'))
+# # Load TorchText TEXT field
+# TEXT = dill.load(open(TEXT_field_file, "rb"))
+# # Load the model parameters
+# model_kwargs = pickle.load(open(model_kwargs_file, 'rb'))
+
+## Our final model
+with open('./flaskr/static/text_preprocessor.pickle', 'rb') as input_file:
+    text_preprocessor = pickle.load(input_file)
+with open('./flaskr/static/binary_encoder.pickle', 'rb') as input_file:
+    binary_encoder = pickle.load(input_file)
+with open('./flaskr/static/model_kwargs.pickle', 'rb') as input_file:
     model = pickle.load(input_file)
-with open('./flaskr/static/mlb.pkl', 'rb') as input_file:
-    mlb = pickle.load(input_file)
-with open('./flaskr/static/tfidf.pkl', 'rb') as input_file:
-    tfidf = pickle.load(input_file)
+with open('./flaskr/static/trained_model.pt', 'rb') as input_file:
+    model_weight = pickle.load(input_file)
+with open('./flaskr/static/Text.Field', 'rb') as input_file:
+    TEXT = dill.load(input_file)
 '''
 Home Page
 1. It will take both GET and POST requests 
@@ -67,27 +86,29 @@ Result Page
 
 
 @app.route('/result', methods=('GET', 'POST'))
-def result():
-    message = session.get('message')
-    pred = tmppredict(text=message, model=model, mlb=mlb, vectorizer=tfidf)
-    genre = pred.head(1)['genre'].values[0]
-    score = pred.head(1)['score'].values[0]
-    if request.method == 'POST':
-        message = request.form['message']
-        if message is not None:
-            session.clear()
-            session['message'] = message
-            return redirect(url_for('result'))
-    return render_template("result.html", message=message, sentiment=genre, score = score)
 # def result():
 #     message = session.get('message')
-#     df_pred = predict(model=model, text=message)
-#     sentiment = df_pred.head(1)['sentiment'].values[0]
-#     score = df_pred.head(1)['score'].values[0]
+#     pred = tmppredict(text=message, model=model, mlb=mlb, vectorizer=tfidf)
+#     genre = pred.head(1)['genre'].values[0]
+#     score = pred.head(1)['score'].values[0]
 #     if request.method == 'POST':
 #         message = request.form['message']
 #         if message is not None:
 #             session.clear()
 #             session['message'] = message
 #             return redirect(url_for('result'))
-#     return render_template("result.html", message=message, sentiment=sentiment, score=score)
+#     return render_template("result.html", message=message, sentiment=genre, score = score)
+def result():
+    message = session.get('message')
+    df_pred = text_to_genres(text=message, label_threshold=0.5, model_kwargs=model,
+                   model_weights=model_weight, binary_encoder=binary_encoder,
+                   TEXT=TEXT, text_preprocessor=text_preprocessor)
+    genre = df_pred.head(1)['genre'].values[0]
+    score = df_pred.head(1)['score'].values[0]
+    if request.method == 'POST':
+        message = request.form['message']
+        if message is not None:
+            session.clear()
+            session['message'] = message
+            return redirect(url_for('result'))
+    return render_template("result.html", message=message, sentiment=genre, score=score)
