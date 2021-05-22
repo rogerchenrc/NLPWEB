@@ -1,8 +1,10 @@
 import pickle
 import dill
 import os
-from flask import Flask
+import logging
+import datetime
 import Model_Loader
+from flask import Flask
 from Model_Loader import *
 
 '''
@@ -12,6 +14,12 @@ Initiate a new flaskr app
 '''
 
 app = Flask(__name__)
+
+# Find the project directory
+root_path = os.path.dirname(os.path.abspath(__file__))
+logging.basicConfig(filename='NLPWEB.log')
+
+
 app.config.from_mapping(
     SECRET_KEY='\xe0\xcd\xac#\x06\xd9\xe4\x00\xa5\xf2\x88\xc3\xef$\xa5\x05n\x97\xd8\x1269i\xd3'
 )
@@ -19,9 +27,6 @@ app.config.from_mapping(
 from flask import (
     redirect, render_template, request, session, url_for
 )
-
-# Find the project directory
-root_path = os.path.dirname(os.path.abspath(__file__))
 
 # predicted_genres, predicted_scores = text_to_genres("The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
 #                                                     model_kwargs_file=root_path+'\\model\\12_Genres\\model_kwargs.pickle',
@@ -88,7 +93,10 @@ def result():
         if message is not None:
             session.clear()
             session['message'] = message
+            app.logger.info(datetime.datetime.today() + ' Sent message ' + str(message))
+            app.logger.info(datetime.datetime.today() + ' Received ', + str(genre) + ", " + str(score))
             return redirect(url_for('result'))
+        
     return render_template("result.html", message=message, genre=genre, score=score)
 
 if __name__ == "__main__":
