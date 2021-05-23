@@ -6,3 +6,40 @@ INFO:main:2021-05-23 14:07:58.998372 Received message "The Avengers and their al
 INFO:main:Model response time: 5.753672122955322
 INFO:main:Model predictions: ['Action', 'Drama'], [0.9728317856788635, 0.7159380912780762]
 INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:08:04] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:2021-05-23 14:11:56.195623 Received message "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+INFO:main:Model response time: 1.593564748764038
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9728317856788635, 0.7159380912780762]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:11:57] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 14:11:57.794174 Received message "A group of young adults visit a boarded up campsite named Crystal Lake where they soon encounter the mysterious Jason Voorhees and his deadly intentions."
+INFO:main:Model response time: 1.2839634418487549
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9858947992324829, 0.7956041097640991]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:11:59] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 14:13:28.550805 Received message "A group of young adults visit a boarded up campsite named Crystal Lake where they soon encounter the mysterious Jason Voorhees and his deadly intentions."
+INFO:main:Model response time: 1.5707061290740967
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9858947992324829, 0.7956041097640991]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:13:30] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 14:13:30.125500 Received message "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace."
+INFO:main:Model response time: 1.2923316955566406
+INFO:main:Model predictions: ['Action'], [0.9923162460327148]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:13:31] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 14:13:51.430749 Received message "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace."
+INFO:main:Model response time: 1.7301485538482666
+INFO:main:Model predictions: ['Action'], [0.9923162460327148]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:13:53] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 14:13:53.164887 Received message "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
+INFO:main:Model response time: 1.2771635055541992
+INFO:main:Model predictions: ['Action', 'Comedy'], [0.9183204770088196, 0.906936526298523]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:13:54] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 14:14:01.415378 Received message "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
+INFO:main:Model response time: 1.4890186786651611
+INFO:main:Model predictions: ['Action', 'Comedy'], [0.9183204770088196, 0.906936526298523]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:14:02] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 14:14:02.909384 Received message ""Pack up for a howling fun movie adventure filled with action, laughs, and tender moments as Kate and Humphrey take their pups on their first family vacation!"
+INFO:main:Model response time: 1.359166145324707
+INFO:main:Model predictions: ['Comedy'], [0.9677575826644897]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:14:04] "[37mGET /result HTTP/1.1[0m" 200 -
