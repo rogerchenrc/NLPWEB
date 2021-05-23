@@ -2,6 +2,7 @@ import pickle
 import dill
 import os
 import logging
+import time
 import datetime
 import Model_Loader
 from flask import Flask
@@ -27,14 +28,6 @@ app.config.from_mapping(
 from flask import (
     redirect, render_template, request, session, url_for
 )
-
-# predicted_genres, predicted_scores = text_to_genres("The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-#                                                     model_kwargs_file=root_path+'\\model\\12_Genres\\model_kwargs.pickle',
-#                                                     model_weights_file=root_path+'\\model\\12_Genres\\trained_model.pt',
-#                                                     binary_encoder_file=root_path+'\\model\\12_Genres\\binary_encoder.pickle',
-#                                                     TEXT_field_file=root_path+"\\model\\12_Genres\\TEXT.Field",
-#                                                     text_preprocessor_file=root_path+"\\model\\12_Genres\\text_preprocessor.pickle")
-# print(predicted_genres, predicted_scores)
     
 '''
 Home Page
@@ -77,6 +70,12 @@ def result():
     # Get the text from the search bar
     message = session.get('message')
     
+    # Document in logs the date and time, as well as the user's input text
+    app.logger.info(datetime.datetime.today() + ' Received message ' + str(message))
+    
+    # Record time
+    start = time.time()
+    
     # Made a prediction from the model
     df_pred = text_to_genres(message,
                              model_kwargs_file=root_path+'\\static\\model_kwargs.pickle',
@@ -84,6 +83,13 @@ def result():
                              binary_encoder_file=root_path+'\\static\\binary_encoder.pickle',
                              TEXT_field_file=root_path+"\\static\\TEXT.Field",
                              text_preprocessor_file=root_path+"\\static\\text_preprocessor.pickle")
+    
+    # Stop recording time
+    end = time.time()
+    
+    # Document in logs how long the model took to respond and its predictions
+    app.logger.info('Model response time: ' + str(end - start))
+    app.logger.info('Model predictions: ', + str(genre) + ", " + str(score))
     
     genre = df_pred.head(1)['genre'].values[0]
     score = df_pred.head(1)['score'].values[0]
@@ -93,8 +99,7 @@ def result():
         if message is not None:
             session.clear()
             session['message'] = message
-            app.logger.info(datetime.datetime.today() + ' Sent message ' + str(message))
-            app.logger.info(datetime.datetime.today() + ' Received ', + str(genre) + ", " + str(score))
+            app.logger.info('Response sent to user')
             return redirect(url_for('result'))
         
     return render_template("result.html", message=message, genre=genre, score=score)
