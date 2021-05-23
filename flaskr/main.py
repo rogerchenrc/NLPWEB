@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 # Find the project directory
 root_path = os.path.dirname(os.path.abspath(__file__))
-logging.basicConfig(filename='NLPWEB.log')
+logging.basicConfig(filename='NLPWEB.log', level=logging.DEBUG)
 
 
 app.config.from_mapping(
@@ -71,7 +71,7 @@ def result():
     message = session.get('message')
     
     # Document in logs the date and time, as well as the user's input text
-    app.logger.info(datetime.datetime.today() + ' Received message ' + str(message))
+    app.logger.info(str(datetime.datetime.today()) + ' Received message \"' + str(message) + "\"")
     
     # Record time
     start = time.time()
@@ -87,12 +87,12 @@ def result():
     # Stop recording time
     end = time.time()
     
-    # Document in logs how long the model took to respond and its predictions
-    app.logger.info('Model response time: ' + str(end - start))
-    app.logger.info('Model predictions: ', + str(genre) + ", " + str(score))
-    
     genre = df_pred.head(1)['genre'].values[0]
     score = df_pred.head(1)['score'].values[0]
+    
+    # Document in logs how long the model took to respond and its predictions
+    app.logger.info('Model response time: ' + str(end - start))
+    app.logger.info('Model predictions: ' + str(genre) + ", " + str(score))
     
     if request.method == 'POST':
         message = request.form['message']

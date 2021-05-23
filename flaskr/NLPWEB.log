@@ -1,9 +1,8 @@
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:53] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:53] "[36mGET /static/github.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:53] "[36mGET /static/movie.gif HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:53] "[36mGET /static/linkedin.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:53] "[36mGET /static/email.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:53] "[36mGET /static/mystyle.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:48:57] "[32mPOST / HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [23/May/2021 13:49:27] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:07:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:07:56] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:07:58] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 14:07:58.998372 Received message "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+INFO:main:Model response time: 5.753672122955322
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9728317856788635, 0.7159380912780762]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:08:04] "[37mGET /result HTTP/1.1[0m" 200 -
