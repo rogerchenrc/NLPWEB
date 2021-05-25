@@ -43,3 +43,1193 @@ INFO:main:2021-05-23 14:14:02.909384 Received message ""Pack up for a howling fu
 INFO:main:Model response time: 1.359166145324707
 INFO:main:Model predictions: ['Comedy'], [0.9677575826644897]
 INFO:werkzeug:127.0.0.1 - - [23/May/2021 14:14:04] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:main:2021-05-23 16:55:50.540537 Received message "svbndsbnfbdfn"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:55:50] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:55:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:55:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:55:52] "[36mGET /static/bgnotitle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py', reloading
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:werkzeug: * Detected change in '/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py', reloading
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:26] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:01:26.624917 Received message "dfghdgfdhgfdsfgsf"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:26] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:26] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:26] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:26] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:27] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:27] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 17:01:57.294126 Received message "dfghdgfdhgfdsfgsf"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:57] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:01:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:18] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:02:18.486761 Received message "cfgdghffh"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:18] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:18] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:18] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:18] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:19] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:02:19] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:main:2021-05-23 17:03:39.691041 Received message "cfgdghffh"
+INFO:main:Model response time: 2.556450128555298
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:42] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:42] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:42] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:42] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:43] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:43] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 17:03:47.741709 Received message "cfgdghffh"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:49] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 4.328131198883057
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:52] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:54] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:03:54.217484 Received message "NBVCCNFCNGVBC"
+INFO:main:Model response time: 2.223126173019409
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:56] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:56] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:56] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:56] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:03:57] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:20] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:04:20.300250 Received message "VGHGHJCFFGJDGFHD"
+INFO:main:Model response time: 1.6420269012451172
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:21] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:22] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:22] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:22] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:22] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:04:22] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:main:2021-05-23 17:05:02.620998 Received message "VGHGHJCFFGJDGFHD"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:05:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 3.1274681091308594
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:05:05] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:05:07] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:05:07.952352 Received message "DGFHJSDGKHDSGFGH"
+INFO:main:Model response time: 1.219710111618042
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:05:09] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 17:05:42.885960 Received message "DGFHJSDGKHDSGFGH"
+INFO:main:Model response time: 1.5332832336425781
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:05:44] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:05:44.434791 Received message "lavinia"
+INFO:main:Model response time: 1.5615019798278809
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:05:45] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 17:06:22.587834 Received message "lavinia"
+INFO:main:Model response time: 1.5053040981292725
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:06:24] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 17:07:20.005693 Received message "lavinia"
+INFO:main:Model response time: 1.619554042816162
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:07:21] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:07:21.635340 Received message "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+INFO:main:Model response time: 1.3378238677978516
+INFO:main:Model predictions: ['Drama'], [0.864004909992218]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:07:22] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 17:08:15.729654 Received message "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+INFO:main:Model response time: 1.2942180633544922
+INFO:main:Model predictions: ['Drama'], [0.864004909992218]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:08:17] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 17:08:17.033463 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.3649530410766602
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 17:08:18] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 18:07:12.861200 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:2021-05-23 18:07:14.189411 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.233895778656006
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:16] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:Model response time: 2.294724702835083
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:16] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 18:07:16.495731 Received message "dsfgghjfdj"
+INFO:main:Model response time: 1.319943904876709
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:17] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:17] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:17] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:17] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:18] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:19] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 18:07:37.640291 Received message "dsfgghjfdj"
+INFO:main:Model response time: 1.989595890045166
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:07:39] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 18:41:48.105067 Received message "dsfgghjfdj"
+INFO:main:Model response time: 3.002992868423462
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:41:51] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 18:41:51.148665 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.3726251125335693
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 18:41:52] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:00:08.697249 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.379469156265259
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:11] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 19:00:11.091385 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.671504020690918
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:12] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:12] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:12] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:12] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:13] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:00:13] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:07:16.503632 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.9373297691345215
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:19] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:19] "[37mGET /result?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:19] "[37mGET /result?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:19] "[37mGET /result?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:20] "[37mGET /result?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:20] "[37mGET /result?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:07:29.348814 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.4686179161071777
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:07:31] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:08:26.976864 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.319385051727295
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:08:29] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:13:56.920790 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.2045180797576904
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:13:59] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:15:25.972754 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.9228131771087646
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:15:29] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:16:57.389529 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 5.3037025928497314
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:17:02] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:30:16.079118 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7963049411773682
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:30:17] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:36:24.598254 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.4140331745147705
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:36:27] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:41:01.544357 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.474703073501587
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:41:04] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:42:53.217060 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7375009059906006
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:42:54] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:44:02.379771 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.0633583068847656
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:44:04] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 19:51:45.166267 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.6350672245025635
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 19:51:46] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:24:43.330577 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7793858051300049
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:24:45] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 20:24:45.124103 Received message "lavinia"
+INFO:main:Model response time: 1.7207767963409424
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:24:46] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:27:23.778296 Received message "lavinia"
+INFO:main:Model response time: 1.6343491077423096
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:27:25] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:30:34.064305 Received message "lavinia"
+INFO:main:Model response time: 2.253021001815796
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:30:36] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:32:11.704104 Received message "lavinia"
+INFO:main:Model response time: 3.832735061645508
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:32:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:main:2021-05-23 20:37:45.238480 Received message "lavinia"
+INFO:main:Model response time: 2.8707590103149414
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:37:48] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:45:07.215560 Received message "lavinia"
+INFO:main:Model response time: 2.0446090698242188
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:45:09] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:45:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:45:23] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 20:45:23.892454 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:Model response time: 2.46726393699646
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:45:26] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:48:36.061854 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:Model response time: 4.99316930770874
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:48:41] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:51:13.883226 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:Model response time: 1.643009901046753
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:51:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:51:37.094354 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:Model response time: 1.7534761428833008
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:51:38] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:52:23.218843 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:Model response time: 1.7926278114318848
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:52:25] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:52:28.668487 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:2021-05-23 20:52:29.564569 Received message "wekuhegrwyutdsfuyugyfd"
+INFO:main:Model response time: 4.042030096054077
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:52:32] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:Model response time: 3.1896018981933594
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:52:32] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 20:52:32.779272 Received message "zdhtfjygkhjlldsjgfgdahsjl"
+INFO:main:Model response time: 1.6533989906311035
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:52:34] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:54:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:54:15] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:54:15] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:54:24] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 20:54:26.197742 Received message "love fear"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:54:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Model response time: 3.281294822692871
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:54:29] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:55:15.825505 Received message "love fear"
+INFO:main:Model response time: 3.0879149436950684
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:55:18] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:56:34.831568 Received message "zdhtfjygkhjlldsjgfgdahsjl"
+INFO:main:Model response time: 2.6708548069000244
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:56:37] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:56:41.299987 Received message "love fear"
+INFO:main:Model response time: 2.0759341716766357
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:56:43] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:56:58.221118 Received message "love fear"
+INFO:main:Model response time: 2.3550329208374023
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:57:00] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 20:57:22.710953 Received message "love fear"
+INFO:main:Model response time: 1.7554099559783936
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 20:57:24] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:04:44.637511 Received message "love fear"
+INFO:main:Model response time: 2.751412868499756
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:04:47] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:07:20.562631 Received message "love fear"
+INFO:main:Model response time: 3.287966012954712
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:07:23] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:08:53.762583 Received message "love fear"
+INFO:main:Model response time: 1.4776942729949951
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:08:55] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:09:45.965575 Received message "love fear"
+INFO:main:Model response time: 4.8563010692596436
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:09:50] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:09:51.015251 Received message "love fear"
+INFO:main:2021-05-23 21:09:53.640215 Received message "love fear"
+INFO:main:Model response time: 5.5190269947052
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:09:56] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 5.345441102981567
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:09:58] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:09:59] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:09:59] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:10:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:10:10.166239 Received message "love fear"
+INFO:main:Model response time: 1.7743301391601562
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:10:11] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:10:12] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:10:12] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:10:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:11:16.979915 Received message "love fear"
+INFO:main:Model response time: 3.467336893081665
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:11:20] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:11:20] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:11:20] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:11:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:12:16.705402 Received message "love fear"
+INFO:main:Model response time: 4.5834290981292725
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:12:21] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:14:32.004645 Received message "love fear"
+INFO:main:Model response time: 1.709272861480713
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:33] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:14:36.578931 Received message "love fear"
+INFO:main:Model response time: 3.412806987762451
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:39] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:40] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:41] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:14:51.005814 Received message "love fear"
+INFO:main:Model response time: 1.865325689315796
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:52] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:14:55.249303 Received message "love fear"
+INFO:main:Model response time: 1.465334177017212
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:56] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:56] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:57] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:14:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:15:42.390721 Received message "love fear"
+INFO:main:Model response time: 2.2665181159973145
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:15:44] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:15:48.194806 Received message "love fear"
+INFO:main:Model response time: 1.3073699474334717
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:15:49] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:15:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:15:49] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:15:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:16:06.205156 Received message "love fear"
+INFO:main:Model response time: 1.8272597789764404
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:16:08] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 21:16:08.055556 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:2021-05-23 21:16:10.242478 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 4.235588788986206
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:16:12] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 2.6017751693725586
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:16:12] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-23 21:16:12.867087 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.619584083557129
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:16:14] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:21:44.380805 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 9.250484943389893
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:21:53] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:22:47.717949 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.4588561058044434
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:22:50] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:23:01.110300 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7463619709014893
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:23:02] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:23:03] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:23:03] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:23:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:26:15.241150 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.9995341300964355
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:26:18] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:26:20.044578 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7080152034759521
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:26:21] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:26:21] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:26:22] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:26:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:27:44.381300 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.3835489749908447
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:27:46] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:27:59.767346 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.5352749824523926
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:01] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:01] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:01] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:28:35.929256 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.589789867401123
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:37] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:37] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:38] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:28:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:29:25.185581 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.6391761302948
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:29:27] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:29:29.868940 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 4.405747175216675
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:29:34] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:29:34] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:29:34] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:29:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:32:07.337592 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.1446127891540527
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:09] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:32:10.031875 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.417755126953125
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:13] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:13] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:13] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:32:38.324513 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.024984121322632
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:41] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:32:45.433044 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:2021-05-23 21:32:47.183938 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7724850177764893
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:47] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 2.062568187713623
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:49] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:49] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:32:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:34:47.396474 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 6.173941135406494
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:34:53] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 21:34:54.911850 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 11.01833701133728
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:35:05] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:35:06] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:35:07] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:35:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:49:58.254317 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.5933949947357178
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:00] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:01] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:01] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:50:47.911588 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.6900238990783691
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:49] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:50] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:50:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 21:51:38.996601 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.2043299674987793
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:51:41] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:51:41] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:51:41] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 21:51:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 22:38:25.365194 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.0354700088500977
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:38:28] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:38:28] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:38:29] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:38:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 22:42:13.416307 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.2444348335266113
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:42:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:42:15] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:42:16] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 22:42:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 23:01:47.739597 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.7351100444793701
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:01:49] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:01:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:01:49] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:01:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 23:52:01.296675 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.8122050762176514
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:03] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:03] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:03] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 23:52:19.379517 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.5675530433654785
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:21] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:22] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:22] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-23 23:55:10.641006 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.8977830410003662
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:55:12] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-23 23:55:14.427121 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.2998781204223633
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:55:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:55:15] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:55:16] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 23:55:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 00:30:53.405318 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.4047229290008545
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:30:56] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 00:33:53.179473 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.5302507877349854
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:33:54] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:33:54] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:33:55] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:33:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 00:34:14.019546 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 4.0670812129974365
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:34:18] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 00:44:15.904554 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 3.368360757827759
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:44:19] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 00:44:20.359409 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.56423020362854
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:44:21] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:44:22] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:44:22] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:44:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 00:47:18.708747 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.4435927867889404
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:47:20] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 00:47:23.276274 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.9520907402038574
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:47:26] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:47:26] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:47:26] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:47:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 00:48:18.733071 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.5107901096343994
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:48:21] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 00:48:22.921952 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 1.2924730777740479
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:48:24] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:48:24] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:48:24] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:48:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 00:49:11.998484 Received message "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+INFO:main:Model response time: 2.369537830352783
+INFO:main:Model predictions: ['Horror', 'Thriller'], [0.9936774373054504, 0.6064140200614929]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:49:14] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 00:49:14.394625 Received message "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+INFO:main:Model response time: 1.8493931293487549
+INFO:main:Model predictions: ['Horror'], [0.9957630634307861]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:49:16] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 00:53:24.205678 Received message "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+INFO:main:Model response time: 1.3012912273406982
+INFO:main:Model predictions: ['Horror'], [0.9957630634307861]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:53:25] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 00:53:25.534064 Received message "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+INFO:main:2021-05-24 00:53:26.096336 Received message "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+INFO:main:Model response time: 2.5023019313812256
+INFO:main:Model predictions: ['Horror'], [0.9957630634307861]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:53:28] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 1.9731841087341309
+INFO:main:Model predictions: ['Horror'], [0.9957630634307861]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:53:28] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 00:53:28.085430 Received message "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+INFO:main:Model response time: 1.207529067993164
+INFO:main:Model predictions: ['Horror'], [0.9957630634307861]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 00:53:29] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:00:56.731205 Received message "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+INFO:main:Model response time: 2.2873969078063965
+INFO:main:Model predictions: ['Horror'], [0.9957630634307861]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:00:59] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 01:00:59.055080 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:2021-05-24 01:00:59.997288 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.8322958946228027
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:01:00] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 1.5407919883728027
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:01:01] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 01:01:01.557990 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.3920378684997559
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:01:02] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:09:11.482129 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.5065081119537354
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:09:12] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:09:18.734602 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.1785390377044678
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:09:19] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:09:20] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:09:20] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:09:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:14:47.925683 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.9399101734161377
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:14:49] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:14:50] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:14:50] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:14:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:15:47.844360 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 2.4323792457580566
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:15:50] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:15:54.524029 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 2.3807382583618164
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:15:56] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:15:57] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:15:57] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:15:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:16:32.611675 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 5.20885705947876
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:16:37] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:16:53.337588 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.6973698139190674
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:16:55] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:16:55] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:16:55] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:16:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:17:15.997183 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 3.4451990127563477
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:17:19] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:17:19] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:17:19] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:17:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:21:27.250090 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.650141954421997
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:21:28] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:21:29] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:21:29] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:21:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:27:59.535378 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.7415590286254883
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:28:01] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:28:01] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:28:02] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:28:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 01:30:54.117476 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:2021-05-24 01:30:55.686275 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 2.804642677307129
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:30:56] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:Model response time: 1.7560670375823975
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:30:57] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 01:30:57.473271 Received message "love fear"
+INFO:main:Model response time: 1.4359731674194336
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:30:58] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:31:09.623581 Received message "love fear"
+INFO:main:Model response time: 1.406470775604248
+INFO:main:Model predictions: ['Drama'], [0.7420941591262817]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:31:11] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 01:31:11.053638 Received message "laughing love death"
+INFO:main:Model response time: 1.2681732177734375
+INFO:main:Model predictions: ['Comedy', 'Drama'], [0.563847005367279, 0.6194679141044617]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:31:12] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:31:24.786269 Received message "laughing love death"
+INFO:main:Model response time: 1.4203441143035889
+INFO:main:Model predictions: ['Comedy', 'Drama'], [0.563847005367279, 0.6194679141044617]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:31:26] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 01:31:26.238804 Received message "laughing love knives death"
+INFO:main:Model response time: 1.7951459884643555
+INFO:main:Model predictions: ['Drama'], [0.6618849635124207]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:31:28] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 01:31:36.719113 Received message "laughing love knives death"
+INFO:main:Model response time: 1.3263370990753174
+INFO:main:Model predictions: ['Drama'], [0.6618849635124207]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:31:38] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 01:31:38.074588 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.499885082244873
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 01:31:39] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:10:24.201513 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 9.060879945755005
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:10:33] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:10:35] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:10:37] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:10:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 02:11:21.111330 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.6119489669799805
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:11:22] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:11:27.498174 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.3793067932128906
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:11:28] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:11:29] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:11:29] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:11:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 02:31:19.883887 Received message "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+INFO:main:Model response time: 1.6111209392547607
+INFO:main:Model predictions: ['Action', 'Drama'], [0.9496966600418091, 0.9369747042655945]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:31:21] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:31:21.523301 Received message " sfdgjdshkfgjdhskghsd"
+INFO:main:Model response time: 1.4228370189666748
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:31:22] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:33:49.867891 Received message " sfdgjdshkfgjdhskghsd"
+INFO:main:Model response time: 2.8253819942474365
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:33:52] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:33:52] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:33:53] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:33:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-24 02:34:03.622783 Received message " sfdgjdshkfgjdhskghsd"
+INFO:main:Model response time: 1.2943711280822754
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:34:04] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:34:04.956517 Received message " hello i am sad
+"
+INFO:main:2021-05-24 02:34:05.883329 Received message " hello i am sad
+"
+INFO:main:Model response time: 2.159850835800171
+INFO:main:Model predictions: ['Horror'], [0.4978821873664856]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:34:07] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 2.2735249996185303
+INFO:main:Model predictions: ['Horror'], [0.4978821873664856]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:34:08] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:34:08.187775 Received message " hello i am sad
+"
+INFO:main:Model response time: 7.4460129737854
+INFO:main:Model predictions: ['Horror'], [0.4978821873664856]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:34:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:42:54.905821 Received message " hello i am sad
+"
+INFO:main:Model response time: 1.8836560249328613
+INFO:main:Model predictions: ['Horror'], [0.4978821873664856]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:42:56] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:42:56.820396 Received message " Lavinia"
+INFO:main:Model response time: 2.8456671237945557
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:42:59] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:43:09.119447 Received message " Lavinia"
+INFO:main:Model response time: 1.4396522045135498
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:43:10] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:43:10.580783 Received message " Lavinia"
+INFO:main:2021-05-24 02:43:10.839136 Received message " Lavinia"
+INFO:main:Model response time: 3.1501078605651855
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:43:13] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 2.9278757572174072
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:43:13] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:43:13.796292 Received message " Lavinia"
+INFO:main:Model response time: 1.321354866027832
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:43:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:44:51.014692 Received message " Lavinia"
+INFO:main:2021-05-24 02:44:51.734852 Received message " Lavinia"
+INFO:main:Model response time: 6.639043092727661
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:44:57] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:Model response time: 6.487726926803589
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:44:58] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:44:58.262138 Received message "Ricardo
+"
+INFO:main:Model response time: 3.040254831314087
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:45:01] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-24 02:45:36.086781 Received message "Ricardo
+"
+INFO:main:Model response time: 1.8517780303955078
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:45:37] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-24 02:45:37.960091 Received message " Ricardo"
+INFO:main:Model response time: 1.5690381526947021
+INFO:main:Model predictions: ['Drama'], [0.43301746249198914]
+INFO:werkzeug:127.0.0.1 - - [24/May/2021 02:45:39] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with fsevents reloader
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 213-323-431
+INFO:werkzeug: * Detected change in '/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py', reloading
+INFO:werkzeug: * Restarting with fsevents reloader
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:45:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:45:50] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:45:51] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:45:58] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:45:58.309796 Received message " hudsghjsadjsaashg"
+INFO:main:Model response time: 1.6745789051055908
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:45:59] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:46:43.358076 Received message " hudsghjsadjsaashg"
+INFO:main:Model response time: 1.5501630306243896
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:46:44] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:46:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:46:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:46:50] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:46:54] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:46:54.196402 Received message " sdgfhjkdfsghksdhghdsf"
+INFO:main:Model response time: 2.6365911960601807
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:46:56] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:47:40.466938 Received message " sdgfhjkdfsghksdhghdsf"
+INFO:main:Model response time: 2.1195261478424072
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:47:42] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:47:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:47:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:48:07] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:48:07.083767 Received message " DSHKLHDFSKDSF"
+INFO:main:Model response time: 1.5124201774597168
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:48:08] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:52:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:52:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:52:25] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:52:25.764621 Received message " sdfghjklhjghfgdfsdasghj"
+INFO:main:Model response time: 2.198718786239624
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:52:27] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:53:16.320325 Received message " sdfghjklhjghfgdfsdasghj"
+INFO:main:Model response time: 2.0626630783081055
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:53:18] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:53:23.184403 Received message " sdfghjklhjghfgdfsdasghj"
+INFO:main:Model response time: 1.6259169578552246
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:53:24] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:53:24.843866 Received message " shdgfjjklhjghfgdfdfzgfhgjk"
+INFO:main:Model response time: 1.5306522846221924
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:53:26] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:55:05.668604 Received message " shdgfjjklhjghfgdfdfzgfhgjk"
+INFO:main:Model response time: 2.365330934524536
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:55:08] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:55:13.525457 Received message " shdgfjjklhjghfgdfdfzgfhgjk"
+INFO:main:Model response time: 1.407639741897583
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:55:14] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:55:14.945480 Received message " dfshgjkhgfdsdghfj
+"
+INFO:main:Model response time: 1.3845808506011963
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:55:16] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:56:04.324211 Received message " dfshgjkhgfdsdghfj
+"
+INFO:main:Model response time: 2.432028293609619
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:56:06] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 13:56:11.997156 Received message " dfshgjkhgfdsdghfj
+"
+INFO:main:Model response time: 1.3265337944030762
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:56:13] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:56:13.337233 Received message " sdgfhjklhgfdfhk
+"
+INFO:main:Model response time: 1.2328650951385498
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:56:14] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:57:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:58:01] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 13:58:01.722502 Received message "djfgykhjhfgdhj"
+INFO:main:Model response time: 1.7293879985809326
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:58:03] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:58:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:59:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:59:55] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:59:56] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 13:59:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:00:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:00:05] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:00:05] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:00:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:00:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:04:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:04:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:04:13] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 14:04:13.698761 Received message "dfghjklhgfdsdghjk"
+INFO:main:Model response time: 1.8230311870574951
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:04:15] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:05:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:05:39] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 14:05:39.985235 Received message "asdfghjklkjhgfdsasdfghj"
+INFO:main:Model response time: 1.913057804107666
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:05:41] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 14:13:44.604061 Received message "asdfghjklkjhgfdsasdfghj"
+INFO:main:Model response time: 2.3291239738464355
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:13:46] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:13:47] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:13:47] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:13:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:20:58.401345 Received message "asdfghjklkjhgfdsasdfghj"
+INFO:main:Model response time: 1.904461145401001
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:00] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:00] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:00] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:21:10.974752 Received message "asdfghjklkjhgfdsasdfghj"
+INFO:main:Model response time: 1.7442078590393066
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:12] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:12] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:13] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:21:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:27:45.674940 Received message "asdfghjklkjhgfdsasdfghj"
+INFO:main:Model response time: 2.448774814605713
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:27:48] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:27:48] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:27:48] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:27:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:27:54.858460 Received message "asdfghjklkjhgfdsasdfghj"
+INFO:main:Model response time: 1.5006840229034424
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:27:56] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 14:27:56.381679 Received message "sgfgdhjkgfhjk"
+INFO:main:Model response time: 1.5227890014648438
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:27:57] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:28:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:28:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:29:00] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 14:29:00.908141 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 1.64650297164917
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:29:02] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 14:29:50.167140 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.3774588108062744
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:29:52] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:29:52] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:29:53] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:29:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:30:13.948692 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.296360969543457
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:30:16] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:30:16] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:30:16] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:30:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:31:16.688262 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.3163750171661377
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:19] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:19] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:19] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:31:47.001786 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 3.0279111862182617
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:50] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:50] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:50] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:31:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:32:38.046446 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.3456239700317383
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:32:40] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 14:32:58.707190 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 3.460719108581543
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:02] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:02] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:02] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:33:26.226008 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 1.7916679382324219
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:28] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 14:33:38.160615 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 1.666579246520996
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:39] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:40] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:40] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:33:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:34:23.471652 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.7518301010131836
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:34:26] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:34:26] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:34:26] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:34:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:35:40.591923 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.2050302028656006
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:35:42] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:35:42] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:35:43] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:35:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:36:05.934913 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 1.6158549785614014
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:07] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:07] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:08] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:36:52.562068 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.3431739807128906
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:54] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:55] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:55] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:36:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:37:20.766686 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.2112982273101807
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:37:22] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:37:23] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:37:23] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:37:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:38:26.957807 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:2021-05-25 14:38:27.620543 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 3.9180400371551514
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:38:31] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:38:31] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:main:Model response time: 4.8177947998046875
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:38:31] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:38:32] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:38:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:39:52.494014 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 1.9246561527252197
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:39:54] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:39:54] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:39:55] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:39:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:41:30.352799 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 3.014561891555786
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:41:33] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:41:33] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:41:34] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:41:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:main:2021-05-25 14:42:15.565596 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 3.6967620849609375
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:42:19] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:42:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:43:20.457383 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.8709559440612793
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:23] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:23] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:24] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:2021-05-25 14:43:47.569984 Received message "dhsdfjgkhlkhgfdhjk"
+INFO:main:Model response time: 2.218064785003662
+INFO:main:Model predictions: ['Drama'], [0.42682409286499023]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:49] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:50] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

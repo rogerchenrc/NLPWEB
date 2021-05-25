@@ -1,0 +1,791 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:29] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:36] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:16:36.618777 Received message "hdsgfhgsagdashjfgdsa"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 223, in text_to_genres
+    text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+AttributeError: Can't get attribute 'DescriptionTransformer' on <module 'flask.__main__' from '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/__main__.py'>
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:36] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:16:52] "[36mGET /static/bgnotitle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:18:17] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:18:17.453757 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 223, in text_to_genres
+    text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+AttributeError: Can't get attribute 'DescriptionTransformer' on <module 'flask.__main__' from '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/__main__.py'>
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:18:17] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flaskr.main:2021-05-23 16:33:36.277741 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 224, in text_to_genres
+    text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+AttributeError: Can't get attribute 'DescriptionTransformer' on <module 'flask.__main__' from '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/__main__.py'>
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:33:36] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:34:09.527670 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 224, in text_to_genres
+    text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+AttributeError: Can't get attribute 'DescriptionTransformer' on <module 'flask.__main__' from '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/__main__.py'>
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:34:09] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flaskr.main:2021-05-23 16:41:33.014728 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 83, in __load
+    root = nltk.data.find("{}/{}".format(self.subdir, zip_name))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords.zip/stopwords/[0m
+
+  Searched in:
+    - '/Users/andreeafratila/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/share/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 120, in __getattr__
+    self.__load()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 85, in __load
+    raise e
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 80, in __load
+    root = nltk.data.find("{}/{}".format(self.subdir, self.__name))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords[0m
+
+  Searched in:
+    - '/Users/andreeafratila/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/share/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:41:33] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:41:36.102448 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 83, in __load
+    root = nltk.data.find("{}/{}".format(self.subdir, zip_name))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords.zip/stopwords/[0m
+
+  Searched in:
+    - '/Users/andreeafratila/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/share/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 120, in __getattr__
+    self.__load()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 85, in __load
+    raise e
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/corpus/util.py", line 80, in __load
+    root = nltk.data.find("{}/{}".format(self.subdir, self.__name))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/nltk/data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/stopwords[0m
+
+  Searched in:
+    - '/Users/andreeafratila/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/share/nltk_data'
+    - '/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:41:36] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flaskr.main:2021-05-23 16:43:34.530037 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 123, in __init__
+    self.stemmer_algorithm = stemmer_algorithm if stemmer_algorithm else PorterStemmer()
+NameError: name 'PorterStemmer' is not defined
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:34] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:43:37.395350 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 123, in __init__
+    self.stemmer_algorithm = stemmer_algorithm if stemmer_algorithm else PorterStemmer()
+NameError: name 'PorterStemmer' is not defined
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:37] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:43:37.912230 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 123, in __init__
+    self.stemmer_algorithm = stemmer_algorithm if stemmer_algorithm else PorterStemmer()
+NameError: name 'PorterStemmer' is not defined
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:37] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:43:39.853704 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 123, in __init__
+    self.stemmer_algorithm = stemmer_algorithm if stemmer_algorithm else PorterStemmer()
+NameError: name 'PorterStemmer' is not defined
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:39] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:43:42.439203 Received message "gfdgjdghdghsdfgsdds"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 123, in __init__
+    self.stemmer_algorithm = stemmer_algorithm if stemmer_algorithm else PorterStemmer()
+NameError: name 'PorterStemmer' is not defined
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:42] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:43] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:51] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:43:51.752739 Received message "hfdsjgfdshjkgfdhfdks "
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 226, in text_to_genres
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 123, in __init__
+    self.stemmer_algorithm = stemmer_algorithm if stemmer_algorithm else PorterStemmer()
+NameError: name 'PorterStemmer' is not defined
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:43:51] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flaskr.main:2021-05-23 16:45:18.774983 Received message "hfdsjgfdshjkgfdhfdks "
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torchtext/data/utils.py", line 115, in get_tokenizer
+    spacy = spacy.load(language)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/__init__.py", line 51, in load
+    name, vocab=vocab, disable=disable, exclude=exclude, config=config
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/util.py", line 330, in load_model
+    raise IOError(Errors.E941.format(name=name, full=OLD_MODEL_SHORTCUTS[name]))
+OSError: [E941] Can't find model 'en'. It looks like you're trying to load a model from a shortcut, which is obsolete as of spaCy v3.0. To load the model, use its full name instead:
+
+nlp = spacy.load("en_core_web_sm")
+
+For more details on the available models, see the models directory: https://spacy.io/models. If you want to create a blank model, use spacy.blank: nlp = spacy.blank("en")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 234, in text_to_genres
+    TEXT = dill.load(open(TEXT_field_file, "rb"))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/dill/_dill.py", line 278, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/dill/_dill.py", line 481, in load
+    obj = StockUnpickler.load(self)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torchtext/legacy/data/field.py", line 189, in __setstate__
+    state['tokenize'] = get_tokenizer(*state['tokenizer_args'])
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torchtext/data/utils.py", line 124, in get_tokenizer
+    spacy = spacy.load(OLD_MODEL_SHORTCUTS[language])
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/__init__.py", line 51, in load
+    name, vocab=vocab, disable=disable, exclude=exclude, config=config
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/util.py", line 331, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:18] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:34] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:35] "[36mGET /static/bgnotitle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:39] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:45:39.467557 Received message "BVBNVBVBNCNB"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torchtext/data/utils.py", line 115, in get_tokenizer
+    spacy = spacy.load(language)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/__init__.py", line 51, in load
+    name, vocab=vocab, disable=disable, exclude=exclude, config=config
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/util.py", line 330, in load_model
+    raise IOError(Errors.E941.format(name=name, full=OLD_MODEL_SHORTCUTS[name]))
+OSError: [E941] Can't find model 'en'. It looks like you're trying to load a model from a shortcut, which is obsolete as of spaCy v3.0. To load the model, use its full name instead:
+
+nlp = spacy.load("en_core_web_sm")
+
+For more details on the available models, see the models directory: https://spacy.io/models. If you want to create a blank model, use spacy.blank: nlp = spacy.blank("en")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 234, in text_to_genres
+    TEXT = dill.load(open(TEXT_field_file, "rb"))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/dill/_dill.py", line 278, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/dill/_dill.py", line 481, in load
+    obj = StockUnpickler.load(self)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torchtext/legacy/data/field.py", line 189, in __setstate__
+    state['tokenize'] = get_tokenizer(*state['tokenizer_args'])
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torchtext/data/utils.py", line 124, in get_tokenizer
+    spacy = spacy.load(OLD_MODEL_SHORTCUTS[language])
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/__init__.py", line 51, in load
+    name, vocab=vocab, disable=disable, exclude=exclude, config=config
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/spacy/util.py", line 331, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:45:39] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:44] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:45] "[36mGET /static/bgnotitle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:49] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:48:50.008283 Received message "cncgnfxcbnvc"
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 85, in result
+    text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/Model_Loader.py", line 262, in text_to_genres
+    model.load_state_dict(torch.load(model_weights_file))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 592, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 851, in _load
+    result = unpickler.load()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 843, in persistent_load
+    load_tensor(data_type, size, key, _maybe_decode_ascii(location))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 832, in load_tensor
+    loaded_storages[key] = restore_location(storage, location)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 151, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/torch/serialization.py", line 135, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:48:51] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flaskr.main:2021-05-23 16:50:50.827175 Received message "cncgnfxcbnvc"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:52] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:52] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:54] "[36mGET /static/bgnotitle.png HTTP/1.1[0m" 304 -
+INFO:flaskr.main:Model response time: 4.580399036407471
+INFO:flaskr.main:Model predictions: ['Drama'], [0.42682409286499023]
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 105, in result
+    return render_template("result.html", message=message, genre=genre, score=score)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 150, in render_template
+    ctx.app,
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/templates/result.html", line 2, in top-level template code
+    {% extends "../base.html" %}
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../base.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:50:55] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:01] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:51:01.813481 Received message "JHDCHJKGDSHJKDFS"
+INFO:flaskr.main:Model response time: 1.3010740280151367
+INFO:flaskr.main:Model predictions: ['Drama'], [0.42682409286499023]
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 105, in result
+    return render_template("result.html", message=message, genre=genre, score=score)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 150, in render_template
+    ctx.app,
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/templates/result.html", line 2, in top-level template code
+    {% extends "../base.html" %}
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../base.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:03] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:flaskr.main:2021-05-23 16:51:42.780604 Received message "JHDCHJKGDSHJKDFS"
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:44] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:44] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:45] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:45] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:46] "[36mGET /static/bgnotitle.png HTTP/1.1[0m" 304 -
+INFO:flaskr.main:Model response time: 4.318784952163696
+INFO:flaskr.main:Model predictions: ['Drama'], [0.42682409286499023]
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 105, in result
+    return render_template("result.html", message=message, genre=genre, score=score)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 150, in render_template
+    ctx.app,
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/templates/result.html", line 2, in top-level template code
+    {% extends "../base.html" %}
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../base.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:51:47] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:52:01] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:52:01.083257 Received message "GHCGFDGDFJHGH"
+INFO:flaskr.main:Model response time: 1.4206318855285645
+INFO:flaskr.main:Model predictions: ['Drama'], [0.42682409286499023]
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 105, in result
+    return render_template("result.html", message=message, genre=genre, score=score)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 150, in render_template
+    ctx.app,
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/templates/result.html", line 2, in top-level template code
+    {% extends "../base.html" %}
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../base.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:52:02] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:flaskr.main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 51, in index
+    return render_template(root_path+"base.html")
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Users/andreeafratila/PycharmProjects/nlpweb/flaskrbase.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:16] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:flaskr.main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 51, in index
+    return render_template(root_path+"base.html")
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Users/andreeafratila/PycharmProjects/nlpweb/flaskrbase.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:17] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+ERROR:flaskr.main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 51, in index
+    return render_template("base.html")
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Users/andreeafratila/PycharmProjects/nlpweb/flaskrbase.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:flaskr.main:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 51, in index
+    return render_template("base.html")
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Users/andreeafratila/PycharmProjects/nlpweb/flaskrbase.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:53:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:54:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:54:04] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:54:04] "GET /static/bgnotitle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:54:09] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:flaskr.main:2021-05-23 16:54:09.536687 Received message "svbndsbnfbdfn"
+INFO:flaskr.main:Model response time: 1.6714942455291748
+INFO:flaskr.main:Model predictions: ['Drama'], [0.42682409286499023]
+ERROR:flaskr.main:Exception on /result [GET]
+Traceback (most recent call last):
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/main.py", line 105, in result
+    return render_template("result.html", message=message, genre=genre, score=score)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 150, in render_template
+    ctx.app,
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/andreeafratila/PycharmProjects/nlpweb/flaskr/templates/result.html", line 2, in top-level template code
+    {% extends "../base.html" %}
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/andreeafratila/opt/anaconda3/envs/ml_model/lib/python3.7/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../base.html
+INFO:werkzeug:127.0.0.1 - - [23/May/2021 16:54:11] "[35m[1mGET /result HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

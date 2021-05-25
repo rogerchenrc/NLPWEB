@@ -1,49 +1,19 @@
-<!--
-Extend all the contents from base.html
--->
+{#Extend the content from the base.html file.#}
 {% extends "base.html" %}
 
-<!--
-Define what should be inside the block content
--->
 {% block content %}
-
-    <!--
-    Result header
-    1. Create a row with 3 columns with Description, Genre, Score header
-    2. Use the outputHeader class which will center and bold the text
-    -->
-    <div class="row">
-        <div class="column">
-            <p class="outputHeader">Movie Descriptions</p>
+{#   Div block to contain the input movie description. #}
+    <div class="desc"> {{ message }}</div>
+{#   Div block to contain the genre predictions. #}
+    <div class="preds">
+    {#    Iterate through all the predictions and show genre name and score. #}
+    {% for item in genre %}
+        <div class="inpreds">
+            <p> Predicted Genre </p>
+            <div class="button"> {{ item }} </div>
+            <p> Score </p>
+            <div class="button">{{ score[loop.index0]}}</div>
         </div>
-        <div class="column">
-            <p class="outputHeader">Genre</p>
-        </div>
-        <div class="column">
-            <p class="outputHeader">Score</p>
-        </div>
+    {% endfor %}
     </div>
-
-    <!--
-    Result content
-    1. Create a row with 3 columns
-    2. 1st column will be the input message
-    3. 2nd column will be the genre of the input film description,
-    4. 3rd column will be the score (probability) of the predicted genre
-    -->
-    <div class="row">
-        <div class="column">
-            <blockquote>
-                {{ message }}
-            </blockquote>
-        </div>
-        <div class="column">
-            <div class="badge {{ genre }}">{{ genre }}</div>
-        </div>
-        <div class="column">
-            <div class="badge">{{ score }}</div>
-        </div>
-
-    </div>
-{% endblock %}
+{% endblock  %}

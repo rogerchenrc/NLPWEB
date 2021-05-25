@@ -78,11 +78,11 @@ def result():
     
     # Made a prediction from the model
     df_pred = text_to_genres(message,
-                             model_kwargs_file=root_path+'\\static\\model_kwargs.pickle',
-                             model_weights_file=root_path+'\\static\\trained_model.pt',
-                             binary_encoder_file=root_path+'\\static\\binary_encoder.pickle',
-                             TEXT_field_file=root_path+"\\static\\TEXT.Field",
-                             text_preprocessor_file=root_path+"\\static\\text_preprocessor.pickle")
+                             model_kwargs_file=root_path+'/static/model_kwargs.pickle',
+                             model_weights_file=root_path+'/static/trained_model.pt',
+                             binary_encoder_file=root_path+'/static/binary_encoder.pickle',
+                             TEXT_field_file=root_path+"/static/TEXT.Field",
+                             text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
     
     # Stop recording time
     end = time.time()
@@ -103,6 +103,7 @@ def result():
             return redirect(url_for('result'))
         
     return render_template("result.html", message=message, genre=genre, score=score)
+
 
 if __name__ == "__main__":
     app.run()

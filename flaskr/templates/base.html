@@ -1,79 +1,30 @@
 <!DOCTYPE html>
-<!--Project css-->
-<link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
-
-<!--Website icon-->
-<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='logo.png') }}">
-
-<!--Website title-->
+{#Link to css file.#}
 <head>
-    <title>Movie Genres Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{#    Web page title#}
+    <title>Movie Genre Prediction</title>
 </head>
 
-<!--Website header with mail, github and linkedin link-->
-<header>
-    <a style="padding:0 0.5rem" href="mailto:rogerchen15935717@gmail.com"><img
-            src="{{ url_for('static', filename='email.png') }}"></a>
-    <a style="padding:0 0.5rem" href="https://github.com/rogerchenrc/NLPWEB" target="_blank"><img
-            src="{{ url_for('static', filename='github.png') }}"></a>
-    <a style="padding:0 0.5rem" href="https://www.linkedin.com/in/kuan-hao-chen-056a7b196/" target="_blank"><img
-            src="{{ url_for('static', filename='linkedin.png') }}"></a>
-</header>
-
 <body>
-
-<!--Website content-->
-<div class="content">
-
-    <!--
-    1. Split into 3 columns
-    2. 1st and 3rd column will be the positive and negative gif
-    3. 2nd column will be the headings
-    -->
-    <div class="row">
-        <div class="column">
-            <img src="{{ url_for('static', filename='movie.gif') }}" class="image">
+{#    Put all website content in one container class with css grid rows.#}
+    <div class="container">
+{#        First row is the webpage header.#}
+        <div class="header">Movie Genre Prediction</div>
+{#        Second row is the form to process the description.#}
+        <div class="textbox">
+            Enter your movie description here: 
+            <br>
+{#            Create a form with text input and submit button#}
+            <form method="post">
+                <label for="message"></label>
+                <textarea id="message" name="message" class="inputbox" required></textarea>
+               <br>
+               <button class="button">Predict</button>
+            </form>
         </div>
-        <div class="column">
-            <h1>MOVIE GENRES DETECTION</h1>
-            <h2>THERE ARE 7 DIFFERENT GENRES FOR DETECTION</h2>
-        </div>
-        <div class="column">
-            <img src="{{ url_for('static', filename='movie.gif') }}" class="image">
-        </div>
+        {% block content %}
+        {% endblock  %}
     </div>
-
-    <!--Add a horizontal line in between-->
-    <hr>
-
-    <!--h3 to ask user to input message-->
-    <h3>Input the movie descriptions to get the genre prediction</h3>
-
-    <!--
-    1. Create a form with text input and submit button
-    2. Obtain the input message and pass it into the code
-    -->
-    <form method="post">
-        <table width="100%">
-            <tr>
-                <td width="85%"><input type="text" name="message" id="message" required></td>
-                <td width="15%">
-                    <button>SUBMIT</button>
-                </td>
-            </tr>
-        </table>
-    </form>
-
-    <!--Add two line breaks between the input and output-->
-    <br>
-    <br>
-
-    <!--Block content for the output, a result html will inherit this base html-->
-    {% block content %}
-    {% endblock %}
-
-    <!--Add two line breaks between the output and footer-->
-    <br>
-    <br>
-</div>
+    
 </body>

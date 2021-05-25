@@ -1,3 +1,4 @@
+import nltk
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -10,11 +11,15 @@ import dill
 import unicodedata
 import re
 import os
+
+from nltk import PorterStemmer
+from nltk.stem.porter import PorterStemmer
+from nltk.stem.snowball import SnowballStemmer
 from torchtext.legacy import data
 from torch.utils.data import Dataset
 from sklearn.base import BaseEstimator, TransformerMixin
 from termcolor import colored
-from pycontractions import Contractions
+# from pycontractions import Contractions
 
 class FilmClassifierLSTM(nn.Module):
     """ 
@@ -143,17 +148,18 @@ class DescriptionTransformer(BaseEstimator, TransformerMixin):
         # Load spaCy language processor
         nlp = spacy.load("en_core_web_sm")
         # Load pre-trained word embedding if using contractions
-        contraction = Contractions(api_key="glove-twitter-25") if self.contractions else None
-        
+        # contraction = Contractions(api_key="glove-twitter-25") if self.contractions else None
+        contraction = None
         # Process text by iterating over each sample's index and description
         for idx, sample in zip(self.data.index.values, self.data.values):
             # Change accented characters, e.g à -> a
             sample = self.remove_accents(str(sample))
             if contraction:
+                None
                 # Contract words, e.g "hasn't" -> "has not"
-                sample = list(contraction.expand_texts([sample], precise=True))
-                sample = ''.join(sample)
-                
+                # sample = list(contraction.expand_texts([sample], precise=True))
+                # sample = ''.join(sample)
+
             # Input sample text into spaCy language processor
             doc = nlp(sample)
             # Split sample text into sentences
@@ -220,7 +226,8 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
                    TEXT_field_file="TEXT.Field", text_preprocessor_file="text_preprocessor.pickle"):
 
      # Load the text preprocessor transformer
-    text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+    # text_preprocessor = pickle.load(open(text_preprocessor_file, 'rb'))
+    text_preprocessor = DescriptionTransformer(stop_words=nltk.corpus.stopwords.words('english'), verbose=2)
     # Load the multi-hot binary encoder
     binary_encoder = pickle.load(open(binary_encoder_file, 'rb'))
     # Load TorchText TEXT field
@@ -252,7 +259,7 @@ def text_to_genres(text, label_threshold=0.5, model_kwargs_file='model_kwargs.pi
     # Set device
     model = model.to(device)
     # Load the model weights from file
-    model.load_state_dict(torch.load(model_weights_file))
+    model.load_state_dict(torch.load(model_weights_file,map_location=torch.device('cpu')))
     # Set model to evaluation mode
     model.eval()
 
