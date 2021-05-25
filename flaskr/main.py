@@ -1,6 +1,7 @@
 import pickle
 import dill
 import os
+import platform
 import logging
 import time
 import datetime
@@ -76,13 +77,25 @@ def result():
     # Record time
     start = time.time()
     
-    # Made a prediction from the model
-    df_pred = text_to_genres(message,
-                             model_kwargs_file=root_path+'/static/model_kwargs.pickle',
-                             model_weights_file=root_path+'/static/trained_model.pt',
-                             binary_encoder_file=root_path+'/static/binary_encoder.pickle',
-                             TEXT_field_file=root_path+"/static/TEXT.Field",
-                             text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+    # Check if using Mac or Windows file paths
+    if platform.system() == 'Darwin':
+    
+        # Made a prediction from the model using Mac file paths
+        df_pred = text_to_genres(message,
+                                 model_kwargs_file=root_path+'/static/model_kwargs.pickle',
+                                 model_weights_file=root_path+'/static/trained_model.pt',
+                                 binary_encoder_file=root_path+'/static/binary_encoder.pickle',
+                                 TEXT_field_file=root_path+"/static/TEXT.Field",
+                                 text_preprocessor_file=root_path+"/static/text_preprocessor.pickle")
+        
+    else:
+        # Made a prediction from the model using Windows file paths
+        df_pred = text_to_genres(message,
+                                 model_kwargs_file=root_path+'\\static\\model_kwargs.pickle',
+                                 model_weights_file=root_path+'\\static\\trained_model.pt',
+                                 binary_encoder_file=root_path+'\\static\\binary_encoder.pickle',
+                                 TEXT_field_file=root_path+"\\static\\TEXT.Field",
+                                 text_preprocessor_file=root_path+"\\static\\text_preprocessor.pickle")
     
     # Stop recording time
     end = time.time()

@@ -1233,3 +1233,57 @@ INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:49] "[37mGET /result HTTP/1.1[0
 INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:50] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [25/May/2021 14:43:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:22:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:23:00] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:23:00] "[37mGET /static/bgnotitle.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:23:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:24:25] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 15:24:25.577833 Received message "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels."
+INFO:main:Model response time: 185.3939335346222
+INFO:main:Model predictions: ['Horror'], [0.649172306060791]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:27:31] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:27:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:32:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:32:57] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 15:32:57.274349 Received message "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels."
+INFO:main:Model response time: 19.111494541168213
+INFO:main:Model predictions: ['Horror'], [0.649172306060791]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:33:16] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 15:34:42.492603 Received message "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels."
+INFO:main:Model response time: 3.947791814804077
+INFO:main:Model predictions: ['Horror'], [0.649172306060791]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:34:46] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 15:34:46.479290 Received message "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts."
+INFO:main:Model response time: 1.3842132091522217
+INFO:main:Model predictions: ['Horror'], [0.9902834296226501]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:34:47] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 15:35:02.810526 Received message "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts."
+INFO:main:Model response time: 1.3828926086425781
+INFO:main:Model predictions: ['Horror'], [0.9902834296226501]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:35:04] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 15:35:04.198406 Received message "After being struck by lightning, Barry Allen wakes up from his coma to discover he's been given the power of super speed, becoming the next Flash, fighting crime in Central City."
+INFO:main:Model response time: 1.3604075908660889
+INFO:main:Model predictions: ['Action', 'Crime', 'Thriller'], [0.9669579863548279, 0.6339624524116516, 0.6107721924781799]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:35:05] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:39:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:39:13] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 15:39:13.874079 Received message "After being struck by lightning, Barry Allen wakes up from his coma to discover he's been given the power of super speed, becoming the next Flash, fighting crime in Central City."
+INFO:main:Model response time: 6.349587440490723
+INFO:main:Model predictions: ['Action', 'Sci-Fi', 'Thriller'], [0.874906063079834, 0.8031138777732849, 0.5430278182029724]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:39:20] "[37mGET /result HTTP/1.1[0m" 200 -
+INFO:main:2021-05-25 15:40:58.002546 Received message "After being struck by lightning, Barry Allen wakes up from his coma to discover he's been given the power of super speed, becoming the next Flash, fighting crime in Central City."
+INFO:main:Model response time: 1.7005269527435303
+INFO:main:Model predictions: ['Action', 'Sci-Fi', 'Thriller'], [0.874906063079834, 0.8031138777732849, 0.5430278182029724]
+INFO:main:Response sent to user
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:40:59] "[32mPOST /result HTTP/1.1[0m" 302 -
+INFO:main:2021-05-25 15:40:59.708058 Received message "When a litter of Dalmatian puppies are abducted by the minions of Cruella de Vil, the parents must find them before she uses them for a diabolical fashion statement."
+INFO:main:Model response time: 1.3862566947937012
+INFO:main:Model predictions: ['Adventure', 'Comedy', 'Family'], [0.6073399186134338, 0.9587904214859009, 0.8310649394989014]
+INFO:werkzeug:127.0.0.1 - - [25/May/2021 15:41:01] "[37mGET /result HTTP/1.1[0m" 200 -
