@@ -42,13 +42,14 @@ body {
 }
 @media screen and (max-width:736px) {
     .header {
-        padding-top: 28px;
+        padding-top: 5%;
         font-size: 30px;
     }
 }
 
 .textbox {
     grid-column: 1 / -1;
+    padding-top: 10px;
     color: white;
     text-shadow: 0.3px 0.3px rgb(67, 67, 67);
     font-size: 30px;
@@ -86,9 +87,9 @@ form {
 
 .desc {
     grid-column: 1/-1;
-    background-color: rgba(253, 253, 253, 0.79);
+    background-color: rgba(253, 253, 253, 0.95);
     color: rgb(152, 58, 114);
-    font-size: 30px;
+    font-size: 16px;
     font-style: italic;
     border-radius: 15px;
 }
